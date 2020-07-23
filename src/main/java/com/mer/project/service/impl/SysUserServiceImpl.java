@@ -131,7 +131,7 @@ public class SysUserServiceImpl implements SysUserService {
 
     @Override
     public Result loginByCode(String phone, String code) {
-        logger.info(String.format(" 手机号 [%s] 验证码登入",phone));
+//        logger.info(String.format(" 手机号 [%s] 验证码登入",phone));
         // 验证验证码是否存在redis
         String smsCode =  redisService.getString(LogingUserKey.smsCode,phone);
         if (smsCode == null) {
@@ -184,7 +184,7 @@ public class SysUserServiceImpl implements SysUserService {
 
     @Override
     public Result loginByPassword(String phone, String password) {
-        logger.info(String.format(" 手机号 [%s] 密码登入",phone));
+//        logger.info(String.format(" 手机号 [%s] 密码登入",phone));
         try{
             // 获取Subject
             Subject subject = SecurityUtils.getSubject();

@@ -2,6 +2,7 @@ package com.mer.project.controller;
 
 
 import com.aliyuncs.exceptions.ClientException;
+import com.mer.framework.annotction.LOG;
 import com.mer.framework.annotction.PhoneNumber;
 
 import com.mer.framework.annotction.RequestLimit;
@@ -32,12 +33,7 @@ public class LoginController {
     private SysUserService userService;
 
 
-    /**
-     * 密码登入
-     * @param phone
-     * @param password
-     * @return
-     */
+    @LOG(operModul = "用户模块",operType = "密码登录",operDesc = "手机号密码登入")
     @ApiOperation("密码登录")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "phone", value = "手机号", required = true, paramType = "query", dataType = "string"),
@@ -49,13 +45,7 @@ public class LoginController {
     }
 
 
-    /**
-     * 修改密码
-     * @param phone
-     * @param code
-     * @param password
-     * @return
-     */
+    @LOG(operModul = "用户模块",operType = "通过验证码修改密码",operDesc = "修改密码")
     @ApiOperation("通过验证码修改密码")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "phone", value = "手机号", required = true, paramType = "query", dataType = "string"),
@@ -69,13 +59,9 @@ public class LoginController {
         return userService.modifyPassword(phone, code, password);
     }
 
-    /**
-     * 修改密码 - 发送修改的验证码
-     * @param phone
-     * @return
-     * @throws ClientException
-     */
-    @ApiOperation("修改密码(发送验证码)")
+
+    @LOG(operModul = "用户模块",operType = "发送验证码(修改密码)",operDesc = "发送验证码,通过验证码修改密码")
+    @ApiOperation("发送验证码(修改密码)")
     @ApiImplicitParam(name = "phone", value = "手机号", required = true, paramType = "query")
     @GetMapping("/modifyPasswordCode")
     public Result sendModifyPasswordCode(@PhoneNumber String phone) throws ClientException {
@@ -83,12 +69,8 @@ public class LoginController {
         return Result.success();
     }
 
-    /**
-     * 验证码登入
-     * @param phone
-     * @param code
-     * @return
-     */
+
+    @LOG(operModul = "用户模块",operType = "验证码登入",operDesc = "通过验证码进行登入")
     @ApiOperation("验证码登录(获取登入验证码)")
     @ApiImplicitParams({
             @ApiImplicitParam(name = "phone", value = "手机号", required = true, paramType = "query", dataType = "string"),
@@ -99,12 +81,8 @@ public class LoginController {
         return userService.loginByCode(phone,code);
     }
 
-    /**
-     * 验证码登入-发送登入的验证码
-     * @param phone
-     * @return
-     * @throws ClientException
-     */
+
+    @LOG(operModul = "用户模块",operType = "发送登入验证码)",operDesc = "发送登入验证码，用作验证码登入")
     @ApiOperation(value = "发送登录验证码")
     @ApiImplicitParam(name = "phone", value = "手机号", required = true, paramType = "query")
     @GetMapping("/sendLoginCode")
