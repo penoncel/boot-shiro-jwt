@@ -1,0 +1,30 @@
+|->2020-07-23 10:59:06.861 |-> com.mer.project.dao.SysUserDao.findByUserPhone - 143 |->  ==>  Preparing: select * from sys_user where phone = ?  
+|->2020-07-23 10:59:06.935 |-> com.mer.project.dao.SysUserDao.findByUserPhone - 143 |->  ==> Parameters: 15701556040(String) 
+|->2020-07-23 10:59:06.986 |-> com.mer.project.dao.SysUserDao.findByUserPhone - 143 |->  <==      Total: 1 
+|->2020-07-23 10:59:06.989 |-> com.mer.project.dao.SysPermissionsDao.getRoleSet - 143 |->  ==>  Preparing: select r.role_key from sys_role r inner join sys_user_roles ur on r.id = ur.role_id where ur.user_id = ?  
+|->2020-07-23 10:59:06.990 |-> com.mer.project.dao.SysPermissionsDao.getRoleSet - 143 |->  ==> Parameters: 45(Integer) 
+|->2020-07-23 10:59:06.995 |-> com.mer.project.dao.SysPermissionsDao.getRoleSet - 143 |->  <==      Total: 2 
+|->2020-07-23 10:59:06.997 |-> com.mer.project.dao.SysPermissionsDao.getRoleIdSet - 143 |->  ==>  Preparing: select role_id from sys_user_roles where user_id = ?  
+|->2020-07-23 10:59:06.998 |-> com.mer.project.dao.SysPermissionsDao.getRoleIdSet - 143 |->  ==> Parameters: 45(Integer) 
+|->2020-07-23 10:59:06.999 |-> com.mer.project.dao.SysPermissionsDao.getRoleIdSet - 143 |->  <==      Total: 2 
+|->2020-07-23 10:59:07.000 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  ==>  Preparing: select mu.href from sys_menu mu INNER join ( select menu_id from sys_user_roles ur INNER join sys_role_permission rp on ur.role_id = rp.role_id and ur.role_id = ? )t on mu.id = t.menu_id  
+|->2020-07-23 10:59:07.000 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  ==> Parameters: 1(Integer) 
+|->2020-07-23 10:59:07.005 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  <==      Total: 76 
+|->2020-07-23 10:59:07.006 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  ==>  Preparing: select mu.href from sys_menu mu INNER join ( select menu_id from sys_user_roles ur INNER join sys_role_permission rp on ur.role_id = rp.role_id and ur.role_id = ? )t on mu.id = t.menu_id  
+|->2020-07-23 10:59:07.006 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  ==> Parameters: 2(Integer) 
+|->2020-07-23 10:59:07.009 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  <==      Total: 76 
+|->2020-07-23 11:00:17.018 |-> com.mer.project.dao.SysUserDao.findByUserPhone - 143 |->  ==>  Preparing: select * from sys_user where phone = ?  
+|->2020-07-23 11:00:17.020 |-> com.mer.project.dao.SysUserDao.findByUserPhone - 143 |->  ==> Parameters: 15701556037(String) 
+|->2020-07-23 11:00:17.021 |-> com.mer.project.dao.SysUserDao.findByUserPhone - 143 |->  <==      Total: 1 
+|->2020-07-23 11:00:17.022 |-> com.mer.project.dao.SysPermissionsDao.getRoleSet - 143 |->  ==>  Preparing: select r.role_key from sys_role r inner join sys_user_roles ur on r.id = ur.role_id where ur.user_id = ?  
+|->2020-07-23 11:00:17.022 |-> com.mer.project.dao.SysPermissionsDao.getRoleSet - 143 |->  ==> Parameters: 43(Integer) 
+|->2020-07-23 11:00:17.023 |-> com.mer.project.dao.SysPermissionsDao.getRoleSet - 143 |->  <==      Total: 2 
+|->2020-07-23 11:00:17.023 |-> com.mer.project.dao.SysPermissionsDao.getRoleIdSet - 143 |->  ==>  Preparing: select role_id from sys_user_roles where user_id = ?  
+|->2020-07-23 11:00:17.024 |-> com.mer.project.dao.SysPermissionsDao.getRoleIdSet - 143 |->  ==> Parameters: 43(Integer) 
+|->2020-07-23 11:00:17.025 |-> com.mer.project.dao.SysPermissionsDao.getRoleIdSet - 143 |->  <==      Total: 2 
+|->2020-07-23 11:00:17.026 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  ==>  Preparing: select mu.href from sys_menu mu INNER join ( select menu_id from sys_user_roles ur INNER join sys_role_permission rp on ur.role_id = rp.role_id and ur.role_id = ? )t on mu.id = t.menu_id  
+|->2020-07-23 11:00:17.026 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  ==> Parameters: 1(Integer) 
+|->2020-07-23 11:00:17.028 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  <==      Total: 76 
+|->2020-07-23 11:00:17.030 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  ==>  Preparing: select mu.href from sys_menu mu INNER join ( select menu_id from sys_user_roles ur INNER join sys_role_permission rp on ur.role_id = rp.role_id and ur.role_id = ? )t on mu.id = t.menu_id  
+|->2020-07-23 11:00:17.030 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  ==> Parameters: 2(Integer) 
+|->2020-07-23 11:00:17.032 |-> com.mer.project.dao.SysPermissionsDao.getPermissionsSet - 143 |->  <==      Total: 76 

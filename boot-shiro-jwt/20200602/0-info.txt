@@ -1,0 +1,418 @@
+[Times] [2020-06-02 15:43:11.775] [INFO ] [com.mer.BootShiroJwtApplication] [55   ]   |->  Starting BootShiroJwtApplication on zhaoqi with PID 87808 (E:\A_Application\C2_IDEA\jinpai-project\boot-shiro-jwt\target\classes started by HP in E:\A_Application\C2_IDEA\jinpai-project\boot-shiro-jwt) 
+[Times] [2020-06-02 15:43:11.776] [INFO ] [com.mer.BootShiroJwtApplication] [655  ]   |->  The following profiles are active: develop 
+[Times] [2020-06-02 15:43:11.816] [INFO ] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [225  ]   |->  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[Times] [2020-06-02 15:43:11.816] [INFO ] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [225  ]   |->  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[Times] [2020-06-02 15:43:12.886] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'shiroConfig' of type [com.mer.framework.config.ShiroConfig$$EnhancerBySpringCGLIB$$18f98c4a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:12.902] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:12.933] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:12.940] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$123c0e67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:12.941] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'mybatisPlusConfig' of type [com.mer.framework.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$c20b7726] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:12.982] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:12.995] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:12.998] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.037] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'customizeMetaObjectHandler' of type [com.mer.framework.handler.CustomizeMetaObjectHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.502] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.512] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.542] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.545] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserDao' of type [com.sun.proxy.$Proxy93] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.561] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisConfig' of type [com.mer.framework.config.Redis.RedisConfig$$EnhancerBySpringCGLIB$$f430ac61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.569] [INFO ] [com.mer.framework.config.Redis.RedisConfig] [54   ]   |->  JedisPool注入成功！！ IP：127.0.0.1  port:6379  DB:12 
+[Times] [2020-06-02 15:43:13.580] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisPoolFactory' of type [redis.clients.jedis.JedisPool] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.585] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.588] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsDao' of type [com.sun.proxy.$Proxy95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.588] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsServerImpl' of type [com.mer.project.service.impl.SysPermissionsServerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.588] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisService' of type [com.mer.framework.config.Redis.RedisService.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.589] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserServiceImpl' of type [com.mer.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.617] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'passWordRealm' of type [com.mer.framework.shiro.realms.PassWordRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.622] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'codeRealm' of type [com.mer.framework.shiro.realms.CodeRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.632] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'tokenService' of type [com.mer.framework.shiro.service.TokenService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.633] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'jwtRealm' of type [com.mer.framework.shiro.realms.JwtRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.637] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'userModularRealmAuthenticator' of type [com.mer.framework.shiro.realms.UserModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.657] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.665] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-06-02 15:43:13.982] [INFO ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [92   ]   |->  Tomcat initialized with port(s): 7777 (http) 
+[Times] [2020-06-02 15:43:13.992] [INFO ] [org.apache.catalina.core.StandardService] [173  ]   |->  Starting service [Tomcat] 
+[Times] [2020-06-02 15:43:13.992] [INFO ] [org.apache.catalina.core.StandardEngine] [173  ]   |->  Starting Servlet engine: [Apache Tomcat/9.0.33] 
+[Times] [2020-06-02 15:43:14.131] [INFO ] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [173  ]   |->  Initializing Spring embedded WebApplicationContext 
+[Times] [2020-06-02 15:43:14.132] [INFO ] [org.springframework.web.context.ContextLoader] [284  ]   |->  Root WebApplicationContext: initialization completed in 2293 ms 
+[Times] [2020-06-02 15:43:14.572] [INFO ] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] [69   ]   |->  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+[Times] [2020-06-02 15:43:14.689] [INFO ] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [181  ]   |->  Initializing ExecutorService 'applicationTaskExecutor' 
+[Times] [2020-06-02 15:43:14.709] [INFO ] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [58   ]   |->  LiveReload server is running on port 35729 
+[Times] [2020-06-02 15:43:14.871] [INFO ] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [160  ]   |->  Context refreshed 
+[Times] [2020-06-02 15:43:14.883] [INFO ] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [163  ]   |->  Found 1 custom documentation plugin(s) 
+[Times] [2020-06-02 15:43:14.906] [INFO ] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [41   ]   |->  Scanning for api listing references 
+[Times] [2020-06-02 15:43:15.076] [INFO ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [204  ]   |->  Tomcat started on port(s): 7777 (http) with context path '' 
+[Times] [2020-06-02 15:43:15.079] [INFO ] [com.mer.BootShiroJwtApplication] [61   ]   |->  Started BootShiroJwtApplication in 3.859 seconds (JVM running for 5.99) 
+[Times] [2020-06-02 15:43:19.304] [INFO ] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [173  ]   |->  Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[Times] [2020-06-02 15:43:19.305] [INFO ] [org.springframework.web.servlet.DispatcherServlet] [525  ]   |->  Initializing Servlet 'dispatcherServlet' 
+[Times] [2020-06-02 15:43:19.313] [INFO ] [org.springframework.web.servlet.DispatcherServlet] [547  ]   |->  Completed initialization in 8 ms 
+[Times] [2020-06-02 15:43:34.216] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1002 ]   |->  {dataSource-1} inited 
+[Times] [2020-06-02 15:43:34.317] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [187  ]   |->   手机号 [15701556037] 密码登入 
+[Times] [2020-06-02 15:43:34.320] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-06-02 15:43:35.131] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [187  ]   |->   手机号 [15701556037] 密码登入 
+[Times] [2020-06-02 15:43:35.131] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-06-02 15:43:35.799] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [187  ]   |->   手机号 [15701556037] 密码登入 
+[Times] [2020-06-02 15:43:35.799] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-06-02 15:43:36.322] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [187  ]   |->   手机号 [15701556037] 密码登入 
+[Times] [2020-06-02 15:43:36.323] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-06-02 15:43:36.897] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [187  ]   |->   手机号 [15701556037] 密码登入 
+[Times] [2020-06-02 15:43:36.898] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-06-02 15:43:40.773] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-06-02 15:43:41.296] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-06-02 15:43:41.730] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-06-02 15:43:42.268] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-06-02 15:43:42.671] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-06-02 16:05:39.791] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [187  ]   |->   手机号 [15701556037] 密码登入 
+[Times] [2020-06-02 16:05:39.791] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-06-02 17:00:53.834] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:54.492] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:54.938] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:55.115] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:55.293] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:55.449] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:55.652] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:55.995] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:56.164] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:56.338] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:56.507] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:56.666] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:56.831] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:56.990] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:00:57.147] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:00.943] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:01.441] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:01.482] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:01.525] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:01.562] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:01.612] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:01.793] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:01.843] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:01.921] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:01.988] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.034] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.078] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.164] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.321] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.415] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.545] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.647] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.743] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.811] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:02.883] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:03.022] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:04.314] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:04.804] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:04.857] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.027] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.154] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.224] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.278] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.319] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.422] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.475] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.627] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.724] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:05.793] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.088] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.189] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.241] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.281] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.445] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.517] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.564] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.608] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.812] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:06.909] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.005] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.106] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.158] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.289] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.330] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.376] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.425] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.468] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.515] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.561] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.775] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.823] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:07.863] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.099] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.147] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.190] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.228] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.294] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.663] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.712] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.752] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.894] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:08.985] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:09.219] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:09.349] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:09.450] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:09.577] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:09.740] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:09.831] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:09.879] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:10.239] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:10.337] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:10.414] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:10.854] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:10.902] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:10.979] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:11.032] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:11.135] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:11.270] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:01:11.311] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:01.771] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:02.226] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:02.271] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:02.378] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:02.442] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:02.512] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:02.633] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:02.674] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:02.747] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:25.734] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.190] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.313] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.369] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.463] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.503] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.601] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.638] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.734] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.836] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:26.933] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.095] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.164] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.214] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.251] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.288] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.388] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.558] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.755] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.854] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:27.920] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:28.321] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:28.553] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:28.621] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:28.724] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:28.777] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:28.815] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:28.915] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:29.641] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:30.150] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:30.219] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:30.313] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:30.376] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:30.489] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:30.532] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:30.708] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:30.908] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.004] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.072] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.198] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.266] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.332] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.436] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.487] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.526] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.562] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.625] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.693] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:31.933] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:32.002] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:32.097] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:32.196] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:32.260] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:32.393] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:32.488] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:32.626] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:32.952] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:33.115] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:33.180] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:33.347] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:33.445] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:33.577] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:33.720] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:33.821] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:33.952] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.046] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.113] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.179] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.247] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.359] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.402] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.609] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.703] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.768] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.876] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:34.927] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:35.000] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:35.047] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:35.082] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:35.122] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:35.255] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:35.330] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:35.426] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:35.497] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:35.553] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:37.033] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:37.525] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:37.700] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:37.737] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:37.848] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:37.898] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:38.008] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:38.075] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:38.125] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:38.381] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:38.632] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:38.701] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:38.880] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:38.930] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:38.967] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:39.175] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:39.269] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:39.429] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:39.466] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:39.564] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:39.661] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:39.725] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.031] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.077] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.223] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.315] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.581] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.648] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.714] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.783] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.830] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:40.941] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:41.064] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:41.182] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:41.220] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:41.257] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:41.301] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:41.579] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:41.663] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:41.705] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:41.908] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.042] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.108] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.201] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.269] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.330] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.437] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.563] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.829] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.893] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:42.956] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.034] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.127] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.223] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.292] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.359] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.450] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.552] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.619] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.745] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.912] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:43.976] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.080] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.123] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.189] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.234] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.383] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.492] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.643] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.759] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.802] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.876] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:44.985] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:45.030] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:45.068] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:45.117] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:45.206] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:45.308] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:45.537] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:45.764] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:45.862] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:45.952] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:46.063] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:46.223] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:46.488] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:46.556] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:46.752] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:46.816] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:47.017] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:47.185] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:47.290] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:47.354] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:47.553] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:47.622] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:47.687] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:47.981] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:48.177] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:48.243] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:48.327] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:48.375] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:48.767] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:48.835] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:48.901] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:49.102] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:49.603] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:50.084] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:50.277] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:50.416] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:50.607] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:50.678] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:50.806] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:50.876] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:51.034] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:51.172] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:51.238] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:51.346] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:51.564] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:51.834] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:51.935] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:52.289] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:52.594] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:52.668] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:52.822] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:53.023] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:53.097] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:53.191] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:55.741] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:56.132] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:56.296] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:56.423] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:56.566] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:56.685] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:56.858] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:56.990] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:57.269] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:57.455] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:57.619] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:57.768] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:02:57.950] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:13.241] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:14.448] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:14.939] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:14.978] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:15.019] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:15.091] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:15.190] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:15.293] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:15.396] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:15.463] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:15.508] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:15.697] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:15.791] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:16.049] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:16.159] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:16.253] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:16.421] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:16.474] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:16.513] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-06-02 17:59:16.581] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 

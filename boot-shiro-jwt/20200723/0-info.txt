@@ -1,0 +1,563 @@
+[Times] [2020-07-23 10:54:13.977] [INFO ] [com.mer.BootShiroJwtApplication] [55   ]   |->  Starting BootShiroJwtApplication on zhaoqi with PID 22800 (E:\A_Application\C2_IDEA\jinpai-project\boot-shiro-jwt\target\classes started by HP in E:\A_Application\C2_IDEA\jinpai-project\boot-shiro-jwt) 
+[Times] [2020-07-23 10:54:13.978] [INFO ] [com.mer.BootShiroJwtApplication] [655  ]   |->  The following profiles are active: develop 
+[Times] [2020-07-23 10:54:14.052] [INFO ] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [225  ]   |->  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[Times] [2020-07-23 10:54:14.052] [INFO ] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [225  ]   |->  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[Times] [2020-07-23 10:54:18.359] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'shiroConfig' of type [com.mer.framework.config.ShiroConfig$$EnhancerBySpringCGLIB$$2a2a62b0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:18.425] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:18.516] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:18.545] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$236ce4cd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:18.559] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'mybatisPlusConfig' of type [com.mer.framework.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$d33c4d8c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:18.686] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:18.781] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:18.795] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:18.972] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'customizeMetaObjectHandler' of type [com.mer.framework.handler.CustomizeMetaObjectHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.328] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.346] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.475] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.488] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserDao' of type [com.sun.proxy.$Proxy109] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.538] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisConfig' of type [com.mer.framework.config.Redis.RedisConfig$$EnhancerBySpringCGLIB$$56182c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.557] [INFO ] [com.mer.framework.config.Redis.RedisConfig] [54   ]   |->  JedisPool注入成功！！ IP：127.0.0.1  port:6379  DB:12 
+[Times] [2020-07-23 10:54:19.595] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisPoolFactory' of type [redis.clients.jedis.JedisPool] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.611] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.617] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsDao' of type [com.sun.proxy.$Proxy110] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.622] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsServerImpl' of type [com.mer.project.service.impl.SysPermissionsServerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.626] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisService' of type [com.mer.framework.config.Redis.RedisService.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.634] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserServiceImpl' of type [com.mer.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.697] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'passWordRealm' of type [com.mer.framework.shiro.realms.PassWordRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.722] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'codeRealm' of type [com.mer.framework.shiro.realms.CodeRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.745] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'tokenService' of type [com.mer.framework.shiro.service.TokenService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.752] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'jwtRealm' of type [com.mer.framework.shiro.realms.JwtRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.763] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'userModularRealmAuthenticator' of type [com.mer.framework.shiro.realms.UserModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.846] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:19.891] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:54:20.822] [INFO ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [92   ]   |->  Tomcat initialized with port(s): 7777 (http) 
+[Times] [2020-07-23 10:54:20.875] [INFO ] [org.apache.catalina.core.StandardService] [173  ]   |->  Starting service [Tomcat] 
+[Times] [2020-07-23 10:54:20.876] [INFO ] [org.apache.catalina.core.StandardEngine] [173  ]   |->  Starting Servlet engine: [Apache Tomcat/9.0.33] 
+[Times] [2020-07-23 10:54:21.206] [INFO ] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [173  ]   |->  Initializing Spring embedded WebApplicationContext 
+[Times] [2020-07-23 10:54:21.206] [INFO ] [org.springframework.web.context.ContextLoader] [284  ]   |->  Root WebApplicationContext: initialization completed in 7153 ms 
+[Times] [2020-07-23 10:54:22.433] [INFO ] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] [69   ]   |->  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+[Times] [2020-07-23 10:54:22.797] [INFO ] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [181  ]   |->  Initializing ExecutorService 'applicationTaskExecutor' 
+[Times] [2020-07-23 10:54:22.885] [INFO ] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [58   ]   |->  LiveReload server is running on port 35729 
+[Times] [2020-07-23 10:54:23.389] [INFO ] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [160  ]   |->  Context refreshed 
+[Times] [2020-07-23 10:54:23.433] [INFO ] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [163  ]   |->  Found 1 custom documentation plugin(s) 
+[Times] [2020-07-23 10:54:23.523] [INFO ] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [41   ]   |->  Scanning for api listing references 
+[Times] [2020-07-23 10:54:24.040] [INFO ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [204  ]   |->  Tomcat started on port(s): 7777 (http) with context path '' 
+[Times] [2020-07-23 10:54:24.051] [INFO ] [com.mer.BootShiroJwtApplication] [61   ]   |->  Started BootShiroJwtApplication in 11.361 seconds (JVM running for 19.471) 
+[Times] [2020-07-23 10:54:51.042] [INFO ] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [173  ]   |->  Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[Times] [2020-07-23 10:54:51.043] [INFO ] [org.springframework.web.servlet.DispatcherServlet] [525  ]   |->  Initializing Servlet 'dispatcherServlet' 
+[Times] [2020-07-23 10:54:51.068] [INFO ] [org.springframework.web.servlet.DispatcherServlet] [547  ]   |->  Completed initialization in 25 ms 
+[Times] [2020-07-23 10:54:51.135] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 / Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:54:58.409] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 / Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:54:58.415] [INFO ] [com.mer.framework.shiro.realms.JwtRealm] [70   ]   |->  ====================Token认证==================== 
+[Times] [2020-07-23 10:55:26.958] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:55:45.174] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:55:52.147] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:05.503] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:17.499] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.028] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.522] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.564] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.629] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.706] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.754] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.803] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.843] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.914] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:18.966] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.010] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.063] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.105] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.305] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.367] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.438] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.492] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.533] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.624] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.668] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.714] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.758] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.797] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.857] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.929] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:19.980] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.024] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.079] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.122] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.191] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.258] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.346] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.390] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.491] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.543] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.590] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.640] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.680] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.721] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.777] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.820] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.871] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.912] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:20.955] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.007] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.051] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.122] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.171] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.219] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.269] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.309] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.358] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.401] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.445] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.497] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.538] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.640] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.732] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.772] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.822] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.859] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:21.904] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.021] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.062] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.106] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.157] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.201] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.246] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.291] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.336] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.382] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.426] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.534] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.642] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.703] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.772] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.824] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.862] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.905] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.956] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:22.998] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.098] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.148] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.188] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.229] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.365] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.451] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.493] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.651] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.758] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.806] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.844] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.886] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:23.989] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.033] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.076] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.117] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.168] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.208] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.272] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.313] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.361] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.400] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.481] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.536] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.589] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.638] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.676] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.729] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.775] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.877] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.931] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:24.969] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:25.039] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:25.101] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:25.141] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:25.185] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:25.229] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:25.368] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:25.421] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:25.469] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:25.943] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:26.439] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:26.481] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:26.520] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:26.568] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:26.618] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /favicon.ico Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 10:56:49.287] [INFO ] [com.mer.framework.aop.WebLogAspect] [48   ]   |->  [URL : http://127.0.0.1:7777/login/codeLogin] 
+[Times] [2020-07-23 10:56:49.288] [INFO ] [com.mer.framework.aop.WebLogAspect] [49   ]   |->  [HTTP_METHOD : POST] 
+[Times] [2020-07-23 10:56:49.288] [INFO ] [com.mer.framework.aop.WebLogAspect] [50   ]   |->  [IP : 127.0.0.1] 
+[Times] [2020-07-23 10:56:49.290] [INFO ] [com.mer.framework.aop.WebLogAspect] [51   ]   |->  [CLASS_METHOD : com.mer.project.controller.LoginController.codeLogin] 
+[Times] [2020-07-23 10:56:49.290] [INFO ] [com.mer.framework.aop.WebLogAspect] [52   ]   |->  [ARGS : org.apache.catalina.util.ParameterMap@288aa922] 
+[Times] [2020-07-23 10:56:49.291] [INFO ] [com.mer.framework.aop.WebLogAspect] [53   ]   |->  [ParameS : [15701556040, 6666] 
+[Times] [2020-07-23 10:56:49.536] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1002 ]   |->  {dataSource-1} inited 
+[Times] [2020-07-23 10:56:49.754] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-07-23 10:56:49.793] [INFO ] [com.mer.framework.aop.WebLogAspect] [59   ]   |->  [耗时（毫秒） : 506]
+ 
+[Times] [2020-07-23 10:57:07.088] [INFO ] [com.mer.framework.aop.WebLogAspect] [48   ]   |->  [URL : http://127.0.0.1:7777/login/modifyPassword] 
+[Times] [2020-07-23 10:57:07.089] [INFO ] [com.mer.framework.aop.WebLogAspect] [49   ]   |->  [HTTP_METHOD : PUT] 
+[Times] [2020-07-23 10:57:07.089] [INFO ] [com.mer.framework.aop.WebLogAspect] [50   ]   |->  [IP : 127.0.0.1] 
+[Times] [2020-07-23 10:57:07.089] [INFO ] [com.mer.framework.aop.WebLogAspect] [51   ]   |->  [CLASS_METHOD : com.mer.project.controller.LoginController.modifyPassword] 
+[Times] [2020-07-23 10:57:07.089] [INFO ] [com.mer.framework.aop.WebLogAspect] [52   ]   |->  [ARGS : org.apache.catalina.util.ParameterMap@288aa922] 
+[Times] [2020-07-23 10:57:07.090] [INFO ] [com.mer.framework.aop.WebLogAspect] [53   ]   |->  [ParameS : [15701556040, 7777, 123123] 
+[Times] [2020-07-23 10:57:07.093] [INFO ] [com.mer.framework.aop.WebLogAspect] [59   ]   |->  [耗时（毫秒） : 5]
+ 
+[Times] [2020-07-23 10:57:53.433] [INFO ] [com.mer.framework.aop.WebLogAspect] [48   ]   |->  [URL : http://127.0.0.1:7777/login/modifyPassword] 
+[Times] [2020-07-23 10:57:53.433] [INFO ] [com.mer.framework.aop.WebLogAspect] [49   ]   |->  [HTTP_METHOD : PUT] 
+[Times] [2020-07-23 10:57:53.433] [INFO ] [com.mer.framework.aop.WebLogAspect] [50   ]   |->  [IP : 127.0.0.1] 
+[Times] [2020-07-23 10:57:53.433] [INFO ] [com.mer.framework.aop.WebLogAspect] [51   ]   |->  [CLASS_METHOD : com.mer.project.controller.LoginController.modifyPassword] 
+[Times] [2020-07-23 10:57:53.434] [INFO ] [com.mer.framework.aop.WebLogAspect] [52   ]   |->  [ARGS : org.apache.catalina.util.ParameterMap@288aa922] 
+[Times] [2020-07-23 10:57:53.434] [INFO ] [com.mer.framework.aop.WebLogAspect] [53   ]   |->  [ParameS : [15701556040, 7777, 123123] 
+[Times] [2020-07-23 10:57:53.436] [INFO ] [com.mer.framework.aop.WebLogAspect] [59   ]   |->  [耗时（毫秒） : 3]
+ 
+[Times] [2020-07-23 10:58:02.099] [INFO ] [com.mer.framework.aop.WebLogAspect] [48   ]   |->  [URL : http://127.0.0.1:7777/login/modifyPassword] 
+[Times] [2020-07-23 10:58:02.100] [INFO ] [com.mer.framework.aop.WebLogAspect] [49   ]   |->  [HTTP_METHOD : PUT] 
+[Times] [2020-07-23 10:58:02.100] [INFO ] [com.mer.framework.aop.WebLogAspect] [50   ]   |->  [IP : 127.0.0.1] 
+[Times] [2020-07-23 10:58:02.100] [INFO ] [com.mer.framework.aop.WebLogAspect] [51   ]   |->  [CLASS_METHOD : com.mer.project.controller.LoginController.modifyPassword] 
+[Times] [2020-07-23 10:58:02.100] [INFO ] [com.mer.framework.aop.WebLogAspect] [52   ]   |->  [ARGS : org.apache.catalina.util.ParameterMap@288aa922] 
+[Times] [2020-07-23 10:58:02.100] [INFO ] [com.mer.framework.aop.WebLogAspect] [53   ]   |->  [ParameS : [15701556040, 7777, 123123] 
+[Times] [2020-07-23 10:58:02.102] [INFO ] [com.mer.framework.aop.WebLogAspect] [59   ]   |->  [耗时（毫秒） : 3]
+ 
+[Times] [2020-07-23 10:58:03.430] [INFO ] [com.mer.framework.aop.WebLogAspect] [48   ]   |->  [URL : http://127.0.0.1:7777/login/modifyPassword] 
+[Times] [2020-07-23 10:58:03.430] [INFO ] [com.mer.framework.aop.WebLogAspect] [49   ]   |->  [HTTP_METHOD : PUT] 
+[Times] [2020-07-23 10:58:03.430] [INFO ] [com.mer.framework.aop.WebLogAspect] [50   ]   |->  [IP : 127.0.0.1] 
+[Times] [2020-07-23 10:58:03.430] [INFO ] [com.mer.framework.aop.WebLogAspect] [51   ]   |->  [CLASS_METHOD : com.mer.project.controller.LoginController.modifyPassword] 
+[Times] [2020-07-23 10:58:03.431] [INFO ] [com.mer.framework.aop.WebLogAspect] [52   ]   |->  [ARGS : org.apache.catalina.util.ParameterMap@288aa922] 
+[Times] [2020-07-23 10:58:03.431] [INFO ] [com.mer.framework.aop.WebLogAspect] [53   ]   |->  [ParameS : [15701556040, 7777, 123123] 
+[Times] [2020-07-23 10:58:03.433] [INFO ] [com.mer.framework.aop.WebLogAspect] [59   ]   |->  [耗时（毫秒） : 3]
+ 
+[Times] [2020-07-23 10:58:05.260] [INFO ] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [218  ]   |->  Shutting down ExecutorService 'applicationTaskExecutor' 
+[Times] [2020-07-23 10:58:05.272] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1885 ]   |->  {dataSource-1} closing ... 
+[Times] [2020-07-23 10:58:05.293] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1955 ]   |->  {dataSource-1} closed 
+[Times] [2020-07-23 10:58:10.720] [INFO ] [com.mer.BootShiroJwtApplication] [55   ]   |->  Starting BootShiroJwtApplication on zhaoqi with PID 23740 (E:\A_Application\C2_IDEA\jinpai-project\boot-shiro-jwt\target\classes started by HP in E:\A_Application\C2_IDEA\jinpai-project\boot-shiro-jwt) 
+[Times] [2020-07-23 10:58:10.757] [INFO ] [com.mer.BootShiroJwtApplication] [655  ]   |->  The following profiles are active: develop 
+[Times] [2020-07-23 10:58:10.799] [INFO ] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [225  ]   |->  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[Times] [2020-07-23 10:58:10.800] [INFO ] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [225  ]   |->  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[Times] [2020-07-23 10:58:12.240] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'shiroConfig' of type [com.mer.framework.config.ShiroConfig$$EnhancerBySpringCGLIB$$d6a93048] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.264] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.304] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.319] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$cfebb265] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.327] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'mybatisPlusConfig' of type [com.mer.framework.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$7fbb1b24] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.374] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.436] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.442] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.492] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'customizeMetaObjectHandler' of type [com.mer.framework.handler.CustomizeMetaObjectHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.808] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.817] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.848] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.853] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserDao' of type [com.sun.proxy.$Proxy106] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.872] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisConfig' of type [com.mer.framework.config.Redis.RedisConfig$$EnhancerBySpringCGLIB$$b1e0505f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.882] [INFO ] [com.mer.framework.config.Redis.RedisConfig] [54   ]   |->  JedisPool注入成功！！ IP：127.0.0.1  port:6379  DB:12 
+[Times] [2020-07-23 10:58:12.892] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisPoolFactory' of type [redis.clients.jedis.JedisPool] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.899] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.902] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsDao' of type [com.sun.proxy.$Proxy107] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.904] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsServerImpl' of type [com.mer.project.service.impl.SysPermissionsServerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.906] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisService' of type [com.mer.framework.config.Redis.RedisService.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.909] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserServiceImpl' of type [com.mer.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.938] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'passWordRealm' of type [com.mer.framework.shiro.realms.PassWordRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.951] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'codeRealm' of type [com.mer.framework.shiro.realms.CodeRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.961] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'tokenService' of type [com.mer.framework.shiro.service.TokenService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.964] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'jwtRealm' of type [com.mer.framework.shiro.realms.JwtRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.970] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'userModularRealmAuthenticator' of type [com.mer.framework.shiro.realms.UserModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:12.993] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:13.012] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 10:58:13.383] [INFO ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [92   ]   |->  Tomcat initialized with port(s): 7777 (http) 
+[Times] [2020-07-23 10:58:13.393] [INFO ] [org.apache.catalina.core.StandardService] [173  ]   |->  Starting service [Tomcat] 
+[Times] [2020-07-23 10:58:13.393] [INFO ] [org.apache.catalina.core.StandardEngine] [173  ]   |->  Starting Servlet engine: [Apache Tomcat/9.0.33] 
+[Times] [2020-07-23 10:58:13.532] [INFO ] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [173  ]   |->  Initializing Spring embedded WebApplicationContext 
+[Times] [2020-07-23 10:58:13.532] [INFO ] [org.springframework.web.context.ContextLoader] [284  ]   |->  Root WebApplicationContext: initialization completed in 2732 ms 
+[Times] [2020-07-23 10:58:14.202] [INFO ] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] [69   ]   |->  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+[Times] [2020-07-23 10:58:14.421] [INFO ] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [181  ]   |->  Initializing ExecutorService 'applicationTaskExecutor' 
+[Times] [2020-07-23 10:58:14.456] [INFO ] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [58   ]   |->  LiveReload server is running on port 35729 
+[Times] [2020-07-23 10:58:14.741] [INFO ] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [160  ]   |->  Context refreshed 
+[Times] [2020-07-23 10:58:14.754] [INFO ] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [163  ]   |->  Found 1 custom documentation plugin(s) 
+[Times] [2020-07-23 10:58:14.779] [INFO ] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [41   ]   |->  Scanning for api listing references 
+[Times] [2020-07-23 10:58:14.983] [INFO ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [204  ]   |->  Tomcat started on port(s): 7777 (http) with context path '' 
+[Times] [2020-07-23 10:58:14.988] [INFO ] [com.mer.BootShiroJwtApplication] [61   ]   |->  Started BootShiroJwtApplication in 4.904 seconds (JVM running for 6.876) 
+[Times] [2020-07-23 10:58:18.137] [INFO ] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [173  ]   |->  Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[Times] [2020-07-23 10:58:18.139] [INFO ] [org.springframework.web.servlet.DispatcherServlet] [525  ]   |->  Initializing Servlet 'dispatcherServlet' 
+[Times] [2020-07-23 10:58:18.152] [INFO ] [org.springframework.web.servlet.DispatcherServlet] [547  ]   |->  Completed initialization in 13 ms 
+[Times] [2020-07-23 10:58:18.299] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1002 ]   |->  {dataSource-1} inited 
+[Times] [2020-07-23 10:59:06.817] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-07-23 10:59:07.057] [INFO ] [com.mer.framework.shiro.realms.CodeRealm] [66   ]   |->   手机号 [15701556040] 验证码身份认证方法 - code auth start... 
+[Times] [2020-07-23 10:59:12.114] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-07-23 10:59:15.395] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-07-23 10:59:17.703] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-07-23 10:59:18.331] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [134  ]   |->   手机号 [15701556040] 验证码登入 
+[Times] [2020-07-23 11:00:17.017] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [187  ]   |->   手机号 [15701556037] 密码登入 
+[Times] [2020-07-23 11:00:17.018] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-07-23 11:07:16.383] [INFO ] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] [69   ]   |->  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+[Times] [2020-07-23 11:07:16.419] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [187  ]   |->   手机号 [15701556037] 密码登入 
+[Times] [2020-07-23 11:07:16.419] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-07-23 11:07:23.999] [INFO ] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [218  ]   |->  Shutting down ExecutorService 'applicationTaskExecutor' 
+[Times] [2020-07-23 11:07:24.009] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1885 ]   |->  {dataSource-1} closing ... 
+[Times] [2020-07-23 11:07:24.018] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1955 ]   |->  {dataSource-1} closed 
+[Times] [2020-07-23 11:08:05.042] [INFO ] [com.mer.BootShiroJwtApplication] [55   ]   |->  Starting BootShiroJwtApplication on zhaoqi with PID 17196 (E:\A_Application\C2_IDEA\jinpai-project\boot-shiro-jwt\target\classes started by HP in E:\A_Application\C2_IDEA\jinpai-project\boot-shiro-jwt) 
+[Times] [2020-07-23 11:08:05.049] [INFO ] [com.mer.BootShiroJwtApplication] [655  ]   |->  The following profiles are active: develop 
+[Times] [2020-07-23 11:08:05.099] [INFO ] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [225  ]   |->  Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+[Times] [2020-07-23 11:08:05.099] [INFO ] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [225  ]   |->  For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+[Times] [2020-07-23 11:08:06.426] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'shiroConfig' of type [com.mer.framework.config.ShiroConfig$$EnhancerBySpringCGLIB$$5b41f026] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.450] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'hashedCredentialsMatcher' of type [org.apache.shiro.authc.credential.HashedCredentialsMatcher] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.491] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.506] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$54847243] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.514] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'mybatisPlusConfig' of type [com.mer.framework.config.MybatisPlusConfig$$EnhancerBySpringCGLIB$$453db02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.559] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'dataSource' of type [com.alibaba.druid.pool.DruidDataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.620] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.627] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceInitializerInvoker] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.672] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'customizeMetaObjectHandler' of type [com.mer.framework.handler.CustomizeMetaObjectHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.986] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:06.996] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.026] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.031] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserDao' of type [com.sun.proxy.$Proxy106] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.049] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisConfig' of type [com.mer.framework.config.Redis.RedisConfig$$EnhancerBySpringCGLIB$$3679103d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.059] [INFO ] [com.mer.framework.config.Redis.RedisConfig] [54   ]   |->  JedisPool注入成功！！ IP：127.0.0.1  port:6379  DB:12 
+[Times] [2020-07-23 11:08:07.070] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisPoolFactory' of type [redis.clients.jedis.JedisPool] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.078] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsDao' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.080] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsDao' of type [com.sun.proxy.$Proxy107] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.082] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysPermissionsServerImpl' of type [com.mer.project.service.impl.SysPermissionsServerImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.084] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'redisService' of type [com.mer.framework.config.Redis.RedisService.RedisService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.086] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'sysUserServiceImpl' of type [com.mer.project.service.impl.SysUserServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.112] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'passWordRealm' of type [com.mer.framework.shiro.realms.PassWordRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.124] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'codeRealm' of type [com.mer.framework.shiro.realms.CodeRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.134] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'tokenService' of type [com.mer.framework.shiro.service.TokenService] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.137] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'jwtRealm' of type [com.mer.framework.shiro.realms.JwtRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.142] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'userModularRealmAuthenticator' of type [com.mer.framework.shiro.realms.UserModularRealmAuthenticator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.165] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.183] [INFO ] [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] [330  ]   |->  Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying) 
+[Times] [2020-07-23 11:08:07.554] [INFO ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [92   ]   |->  Tomcat initialized with port(s): 7777 (http) 
+[Times] [2020-07-23 11:08:07.566] [INFO ] [org.apache.catalina.core.StandardService] [173  ]   |->  Starting service [Tomcat] 
+[Times] [2020-07-23 11:08:07.566] [INFO ] [org.apache.catalina.core.StandardEngine] [173  ]   |->  Starting Servlet engine: [Apache Tomcat/9.0.33] 
+[Times] [2020-07-23 11:08:07.701] [INFO ] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [173  ]   |->  Initializing Spring embedded WebApplicationContext 
+[Times] [2020-07-23 11:08:07.701] [INFO ] [org.springframework.web.context.ContextLoader] [284  ]   |->  Root WebApplicationContext: initialization completed in 2601 ms 
+[Times] [2020-07-23 11:08:08.331] [INFO ] [springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping] [69   ]   |->  Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)] 
+[Times] [2020-07-23 11:08:08.550] [INFO ] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [181  ]   |->  Initializing ExecutorService 'applicationTaskExecutor' 
+[Times] [2020-07-23 11:08:08.584] [INFO ] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [58   ]   |->  LiveReload server is running on port 35729 
+[Times] [2020-07-23 11:08:08.857] [INFO ] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [160  ]   |->  Context refreshed 
+[Times] [2020-07-23 11:08:08.869] [INFO ] [springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper] [163  ]   |->  Found 1 custom documentation plugin(s) 
+[Times] [2020-07-23 11:08:08.892] [INFO ] [springfox.documentation.spring.web.scanners.ApiListingReferenceScanner] [41   ]   |->  Scanning for api listing references 
+[Times] [2020-07-23 11:08:09.068] [INFO ] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [204  ]   |->  Tomcat started on port(s): 7777 (http) with context path '' 
+[Times] [2020-07-23 11:08:09.072] [INFO ] [com.mer.BootShiroJwtApplication] [61   ]   |->  Started BootShiroJwtApplication in 4.634 seconds (JVM running for 6.659) 
+[Times] [2020-07-23 11:08:28.889] [INFO ] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [173  ]   |->  Initializing Spring DispatcherServlet 'dispatcherServlet' 
+[Times] [2020-07-23 11:08:28.890] [INFO ] [org.springframework.web.servlet.DispatcherServlet] [525  ]   |->  Initializing Servlet 'dispatcherServlet' 
+[Times] [2020-07-23 11:08:28.904] [INFO ] [org.springframework.web.servlet.DispatcherServlet] [547  ]   |->  Completed initialization in 14 ms 
+[Times] [2020-07-23 11:08:29.066] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1002 ]   |->  {dataSource-1} inited 
+[Times] [2020-07-23 11:08:29.151] [INFO ] [com.mer.project.service.impl.SysUserServiceImpl] [187  ]   |->   手机号 [15701556037] 密码登入 
+[Times] [2020-07-23 11:08:29.154] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-07-23 11:08:29.313] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:08:29.314] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:08:29.314] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:08:29.316] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:08:29.316] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  密码登录 
+[Times] [2020-07-23 11:08:29.316] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  手机号密码登入 
+[Times] [2020-07-23 11:08:29.317] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/pwdLogin 
+[Times] [2020-07-23 11:08:29.317] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:08:29.317] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:08:29.317] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:08:29 
+[Times] [2020-07-23 11:08:29.318] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.pwdLogin 
+[Times] [2020-07-23 11:08:29.318] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {password=556037, phone=15701556037} 
+[Times] [2020-07-23 11:08:29.318] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=操作成功, code=200, data={userinfo=LogingUserVo(phone=15701556037, nickname=null, icon=/test.jpg, sex=0, age=0, address=null), token=LoginToken(token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjE1NzAxNTU2MDM3IiwiZXhwIjoxNTk1NjQ2NTA5fQ.-NFNKENxz_kdwarkq-7DYKU7ukZDjtBJ8_HK3atu1CM, refresh_time=2020-07-25 11:08:29)}} 
+[Times] [2020-07-23 11:08:29.319] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:08:29.319529200 
+[Times] [2020-07-23 11:08:29.319] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  24 
+[Times] [2020-07-23 11:08:29.319] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:09:44.191] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-07-23 11:09:44.197] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:09:44.197] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:09:44.197] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:09:44.198] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:09:44.198] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  密码登录 
+[Times] [2020-07-23 11:09:44.198] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  手机号密码登入 
+[Times] [2020-07-23 11:09:44.199] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/pwdLogin 
+[Times] [2020-07-23 11:09:44.199] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:09:44.199] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:09:44.199] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:09:44 
+[Times] [2020-07-23 11:09:44.200] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.pwdLogin 
+[Times] [2020-07-23 11:09:44.200] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {password=556037, phone=15701556037} 
+[Times] [2020-07-23 11:09:44.200] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=操作成功, code=200, data={userinfo=LogingUserVo(phone=15701556037, nickname=null, icon=/test.jpg, sex=0, age=0, address=null), token=LoginToken(token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwaG9uZSI6IjE1NzAxNTU2MDM3IiwiZXhwIjoxNTk1NjQ2NTg0fQ.b8xn9Z7vTIGCrnFg39_QZ9rGSAKrWbBFGYaBXSdUYaE, refresh_time=2020-07-25 11:09:44)}} 
+[Times] [2020-07-23 11:09:44.201] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:09:44.201282200 
+[Times] [2020-07-23 11:09:44.201] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  4 
+[Times] [2020-07-23 11:09:44.201] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:09:59.704] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-07-23 11:09:59.708] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:09:59.708] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:09:59.708] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:09:59.709] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:09:59.709] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  密码登录 
+[Times] [2020-07-23 11:09:59.709] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  手机号密码登入 
+[Times] [2020-07-23 11:09:59.709] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/pwdLogin 
+[Times] [2020-07-23 11:09:59.710] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:09:59.710] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:09:59.710] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:09:59 
+[Times] [2020-07-23 11:09:59.711] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.pwdLogin 
+[Times] [2020-07-23 11:09:59.711] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {password=556037撒旦法, phone=15701556037} 
+[Times] [2020-07-23 11:09:59.711] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=密码不正确, code=1005} 
+[Times] [2020-07-23 11:09:59.712] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:09:59.712800300 
+[Times] [2020-07-23 11:09:59.712] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  4 
+[Times] [2020-07-23 11:09:59.712] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:10:23.735] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-07-23 11:10:23.737] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:23.738] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:23.738] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:10:23.738] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:10:23.739] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  密码登录 
+[Times] [2020-07-23 11:10:23.739] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  手机号密码登入 
+[Times] [2020-07-23 11:10:23.739] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/pwdLogin 
+[Times] [2020-07-23 11:10:23.740] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:10:23.740] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:10:23.740] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:10:23 
+[Times] [2020-07-23 11:10:23.740] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.pwdLogin 
+[Times] [2020-07-23 11:10:23.741] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {password=556037撒旦法, phone=15701556037} 
+[Times] [2020-07-23 11:10:23.741] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=密码不正确, code=1005} 
+[Times] [2020-07-23 11:10:23.741] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:10:23.741542900 
+[Times] [2020-07-23 11:10:23.741] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  4 
+[Times] [2020-07-23 11:10:23.742] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:10:24.487] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-07-23 11:10:24.489] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:24.489] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:24.489] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:10:24.490] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:10:24.490] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  密码登录 
+[Times] [2020-07-23 11:10:24.490] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  手机号密码登入 
+[Times] [2020-07-23 11:10:24.491] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/pwdLogin 
+[Times] [2020-07-23 11:10:24.491] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:10:24.491] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:10:24.491] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:10:24 
+[Times] [2020-07-23 11:10:24.492] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.pwdLogin 
+[Times] [2020-07-23 11:10:24.492] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {password=556037撒旦法, phone=15701556037} 
+[Times] [2020-07-23 11:10:24.492] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=密码不正确, code=1005} 
+[Times] [2020-07-23 11:10:24.492] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:10:24.492534700 
+[Times] [2020-07-23 11:10:24.493] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  4 
+[Times] [2020-07-23 11:10:24.493] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:10:26.084] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-07-23 11:10:26.086] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:26.086] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:26.086] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:10:26.087] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:10:26.087] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  密码登录 
+[Times] [2020-07-23 11:10:26.087] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  手机号密码登入 
+[Times] [2020-07-23 11:10:26.087] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/pwdLogin 
+[Times] [2020-07-23 11:10:26.088] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:10:26.088] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:10:26.088] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:10:26 
+[Times] [2020-07-23 11:10:26.088] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.pwdLogin 
+[Times] [2020-07-23 11:10:26.089] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {password=556037撒旦法, phone=15701556037} 
+[Times] [2020-07-23 11:10:26.089] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=密码不正确, code=1005} 
+[Times] [2020-07-23 11:10:26.089] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:10:26.089265 
+[Times] [2020-07-23 11:10:26.090] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  4 
+[Times] [2020-07-23 11:10:26.090] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:10:46.248] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:46.249] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:46.249] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:10:46.249] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:10:46.250] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  验证码登入 
+[Times] [2020-07-23 11:10:46.250] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  通过验证码进行登入 
+[Times] [2020-07-23 11:10:46.250] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/codeLogin 
+[Times] [2020-07-23 11:10:46.250] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:10:46.251] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:10:46.251] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:10:46 
+[Times] [2020-07-23 11:10:46.251] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.codeLogin 
+[Times] [2020-07-23 11:10:46.252] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {code=66661, phone=15701556040} 
+[Times] [2020-07-23 11:10:46.252] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=验证码无效, code=1002} 
+[Times] [2020-07-23 11:10:46.252] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:10:46.252376 
+[Times] [2020-07-23 11:10:46.252] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  4 
+[Times] [2020-07-23 11:10:46.253] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:10:52.913] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:52.913] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:52.914] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:10:52.914] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:10:52.914] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  验证码登入 
+[Times] [2020-07-23 11:10:52.915] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  通过验证码进行登入 
+[Times] [2020-07-23 11:10:52.915] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/codeLogin 
+[Times] [2020-07-23 11:10:52.915] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:10:52.915] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:10:52.916] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:10:52 
+[Times] [2020-07-23 11:10:52.916] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.codeLogin 
+[Times] [2020-07-23 11:10:52.916] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {code=66661, phone=15701556040} 
+[Times] [2020-07-23 11:10:52.917] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=验证码无效, code=1002} 
+[Times] [2020-07-23 11:10:52.917] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:10:52.917521900 
+[Times] [2020-07-23 11:10:52.917] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  4 
+[Times] [2020-07-23 11:10:52.917] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:10:56.283] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:56.283] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:10:56.283] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:10:56.284] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:10:56.284] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  验证码登入 
+[Times] [2020-07-23 11:10:56.284] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  通过验证码进行登入 
+[Times] [2020-07-23 11:10:56.285] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/codeLogin 
+[Times] [2020-07-23 11:10:56.285] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:10:56.285] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:10:56.285] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:10:56 
+[Times] [2020-07-23 11:10:56.286] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.codeLogin 
+[Times] [2020-07-23 11:10:56.286] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {code=66661, phone=15701556040} 
+[Times] [2020-07-23 11:10:56.286] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=验证码无效, code=1002} 
+[Times] [2020-07-23 11:10:56.286] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:10:56.286512800 
+[Times] [2020-07-23 11:10:56.287] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  5 
+[Times] [2020-07-23 11:10:56.287] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:12:04.278] [INFO ] [com.mer.framework.shiro.realms.PassWordRealm] [56   ]   |->   手机号 [15701556037] 密码身份认证方法 - password auth start... 
+[Times] [2020-07-23 11:12:04.280] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:12:04.280] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:12:04.281] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:12:04.281] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:12:04.281] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  密码登录 
+[Times] [2020-07-23 11:12:04.281] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  手机号密码登入 
+[Times] [2020-07-23 11:12:04.282] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/pwdLogin 
+[Times] [2020-07-23 11:12:04.282] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:12:04.282] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:12:04.283] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:12:04 
+[Times] [2020-07-23 11:12:04.283] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.pwdLogin 
+[Times] [2020-07-23 11:12:04.283] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {password=556037撒旦法, phone=15701556037} 
+[Times] [2020-07-23 11:12:04.283] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=密码不正确, code=1005} 
+[Times] [2020-07-23 11:12:04.284] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:12:04.284673300 
+[Times] [2020-07-23 11:12:04.284] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  4 
+[Times] [2020-07-23 11:12:04.284] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:12:18.130] [INFO ] [com.mer.framework.aop.LOGAop] [75   ]   |->  {LOGAop}硬件设备          |->  UNKNOWN 
+[Times] [2020-07-23 11:12:18.130] [INFO ] [com.mer.framework.aop.LOGAop] [76   ]   |->  {LOGAop}设备系统          |->  UNKNOWN 
+[Times] [2020-07-23 11:12:18.131] [INFO ] [com.mer.framework.aop.LOGAop] [77   ]   |->  {LOGAop}设备版本          |->  null 
+[Times] [2020-07-23 11:12:18.131] [INFO ] [com.mer.framework.aop.LOGAop] [85   ]   |->  {LOGAop}操作模块          |->  用户模块 
+[Times] [2020-07-23 11:12:18.131] [INFO ] [com.mer.framework.aop.LOGAop] [86   ]   |->  {LOGAop}操作类型          |->  验证码登入 
+[Times] [2020-07-23 11:12:18.131] [INFO ] [com.mer.framework.aop.LOGAop] [87   ]   |->  {LOGAop}操作描述          |->  通过验证码进行登入 
+[Times] [2020-07-23 11:12:18.132] [INFO ] [com.mer.framework.aop.LOGAop] [112  ]   |->  {LOGAop}请求URI           |->  /login/codeLogin 
+[Times] [2020-07-23 11:12:18.132] [INFO ] [com.mer.framework.aop.LOGAop] [113  ]   |->  {LOGAop}请求I P           |->  127.0.0.1 
+[Times] [2020-07-23 11:12:18.132] [INFO ] [com.mer.framework.aop.LOGAop] [114  ]   |->  {LOGAop}操作员            |->  赵旗 
+[Times] [2020-07-23 11:12:18.132] [INFO ] [com.mer.framework.aop.LOGAop] [115  ]   |->  {LOGAop}操作时间          |->  2020-07-23 11:12:18 
+[Times] [2020-07-23 11:12:18.133] [INFO ] [com.mer.framework.aop.LOGAop] [116  ]   |->  {LOGAop}操作方法          |->  com.mer.project.controller.LoginController.codeLogin 
+[Times] [2020-07-23 11:12:18.133] [INFO ] [com.mer.framework.aop.LOGAop] [117  ]   |->  {LOGAop}请求参数          |->  {code=66661, phone=15701556040} 
+[Times] [2020-07-23 11:12:18.133] [INFO ] [com.mer.framework.aop.LOGAop] [118  ]   |->  {LOGAop}返回结果          |->  {msg=验证码无效, code=1002} 
+[Times] [2020-07-23 11:12:18.133] [INFO ] [com.mer.framework.aop.LOGAop] [119  ]   |->  {LOGAop}请求结束时间      |->  2020-07-23T11:12:18.133638400 
+[Times] [2020-07-23 11:12:18.134] [INFO ] [com.mer.framework.aop.LOGAop] [121  ]   |->  {LOGAop}请求耗时          |->  4 
+[Times] [2020-07-23 11:12:18.134] [INFO ] [com.mer.framework.aop.LOGAop] [122  ]   |->  {LOGAop}######################################END###########################################
+ 
+[Times] [2020-07-23 11:12:21.320] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:28.122] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:28.825] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:29.293] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:29.792] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:30.245] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:30.736] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:32.701] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:34.918] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:35.389] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:35.770] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:39.279] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:39.826] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:40.464] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:41.087] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:41.678] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:42.105] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:42.644] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:43.121] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:43.649] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:44.254] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:44.894] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:45.437] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:45.928] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:12:46.413] [INFO ] [com.mer.framework.shiro.filter.JwtFilter] [53   ]   |->  当前请求 /test/logout Authorization属性(Token)为空 请求类型 GET 
+[Times] [2020-07-23 11:13:02.664] [INFO ] [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] [218  ]   |->  Shutting down ExecutorService 'applicationTaskExecutor' 
+[Times] [2020-07-23 11:13:02.673] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1885 ]   |->  {dataSource-1} closing ... 
+[Times] [2020-07-23 11:13:02.682] [INFO ] [com.alibaba.druid.pool.DruidDataSource] [1955 ]   |->  {dataSource-1} closed 
