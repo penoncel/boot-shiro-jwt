@@ -5,14 +5,14 @@ import javax.crypto.spec.SecretKeySpec;
 
 /**
  * @program: AESUtils
- * @description: AES工具类
+ * @description: AES工具类加解密
  * @author: zq
  * @create: 2019-12-05 13:53
  **/
 public class AESUtils {
     private static final String KEY_AES = "AES";
     private static final String KEY = "1101101101101111";
-
+    
     public static String encrypt(String src) {
       try{
           byte[] raw = KEY.getBytes();
